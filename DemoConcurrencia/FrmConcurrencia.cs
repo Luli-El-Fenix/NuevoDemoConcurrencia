@@ -92,6 +92,11 @@ namespace DemoConcurrencia
         {
 
         }
+
+        private void TxtResultado_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
