@@ -5,9 +5,10 @@
         public static Singleton Instancia = null;
         private static readonly object bloqueo = new object();
 
+        public string cadenaConexion;
         public Singleton()
         {
-
+            cadenaConexion = "";
         }
         public static Singleton Instance
         {
